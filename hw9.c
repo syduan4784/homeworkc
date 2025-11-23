@@ -872,7 +872,7 @@ int main(void) {
     int count = 0;
 
     // CSV 파일에서 학생 데이터 로드 (파일명은 필요에 따라 수정)
-    Student* original = load_students("students.csv", &count);
+    Student* original = load_students("dataset_id_ascending.csv", &count);
     if (!original) {
         fprintf(stderr, "학생 데이터 로드 실패\n");
         return 1;

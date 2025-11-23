@@ -228,7 +228,7 @@ int main(void) {
     int count = 0;
 
     // 과제 09에서 사용한 데이터셋 파일 이름 (필요에 따라 수정)
-    const char* filename = "students.csv";
+    const char* filename = "dataset_id_ascending.csv";
 
     // 1) 학생 데이터 로드 + 세 가지 성적의 곱 계산
     Student* students = load_students(filename, &count);
